@@ -23,7 +23,7 @@ def power(a,b):
 
 def floor_divide(a,b):
     if b == 0:
-        raise ValueError("cammot do floor division by zero")
+        raise ValueError("Cannot do floor division by zero")
     return a // b
 
 def convert(value):
